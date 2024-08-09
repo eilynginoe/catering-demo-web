@@ -1,0 +1,110 @@
+/* Estilos generales para la página */
+.menuPage {
+    padding: 20px;
+}
+
+/* Estilos para cada sección de categoría */
+.category-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Fondo claro para categorías en índices pares */
+.bg-light {
+    width: 100%;
+    background-color: #F3F3F3;
+    color: black
+
+}
+
+/* Fondo degradado para categorías en índices impares */
+.bg-gradient {
+    width: 100%;
+    background: linear-gradient(270deg, #48494A 0%, #030301 100%);
+    color: white;
+
+}
+
+/* Título de la categoría */
+.category-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Contenedor de las tarjetas */
+.category-grid {
+    display: grid;
+    gap: 20px;
+}
+
+/* Estilos para las tarjetas */
+.menuCardPages {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.menuCardPages:hover {
+    transform: scale(1.05);
+}
+
+/* Imagen de la tarjeta */
+.menuCardImg {
+    width: 100%;
+    height: auto;
+}
+
+/* Contenido de la tarjeta */
+.menuCardContent {
+    padding: 15px;
+    text-align: center;
+}
+
+.menuDimTitle {
+    color: chocolate;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.menuCardDescription {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+/* Estilos para el botón */
+.containerBoton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Responsividad */
+@media (min-width: 1200px) {
+    .category-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+        grid-auto-rows: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .category-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .category-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    }
+}
+
+@media (max-width: 575px) {
+    .category-grid {
+        grid-template-columns: 1fr; /* 1 columna */
+    }
+}

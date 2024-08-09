@@ -1,0 +1,28 @@
+.gallerySection {
+    padding: 3rem;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.galleryTitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.galleryGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Ajusta el tamaño y cantidad de columnas automáticamente */
+    gap: 1rem; /* Espacio entre las imágenes */
+}
+
+.galleryImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover; /* Asegura que la imagen se recorte sin distorsionarse */
+    transition: transform 0.3s ease;
+}
+
+.galleryImage:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}

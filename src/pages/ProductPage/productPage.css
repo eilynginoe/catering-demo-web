@@ -1,0 +1,61 @@
+/* ProductPage.css */
+.menuCategorias {
+    padding: 2rem;
+    background-color: #F3F3F3;
+    max-width: 100%; /* Evita que el contenedor exceda el ancho de la pantalla */
+    margin: 0 auto; /* Centra el contenedor */
+    min-height: 100vh; /* Asegura que el contenedor ocupe al menos el 100% de la altura de la ventana */
+    box-sizing: border-box; /* Asegura que el padding no cause overflow */
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
+.tituloCategorias {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Grid container for product cards */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Ajusta las columnas según el ancho de la pantalla */
+    gap: 1.5rem; /* Espacio entre tarjetas */
+    flex-grow: 1; /* Permite que el grid crezca para llenar el espacio disponible */
+}
+
+/* Style for each product card */
+.product-card {
+    background-color: #fff; /* Color de fondo de las tarjetas */
+    border: 1px solid #ddd; /* Borde alrededor de la tarjeta */
+    border-radius: 8px; /* Esquinas redondeadas */
+    overflow: hidden; /* Oculta el desbordamiento en las imágenes */
+    text-align: center; /* Centra el texto dentro de la tarjeta */
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efecto de sombra */
+    transition: box-shadow 0.3s ease; /* Transición suave para la sombra en hover */
+}
+
+.product-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más oscura al hacer hover */
+}
+
+.product-card img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho de la tarjeta */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-bottom: 1px solid #ddd; /* Línea divisoria entre la imagen y el texto */
+}
+
+.product-card h3 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #666;
+}
+
+
+  

@@ -1,0 +1,402 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-asadopapas.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 2,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/bebidas-alcohol.jpg",
+        "categoria": "BEBIDAS"
+      },
+      {
+        "id": 3,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/bebidas-cafe.jpg",
+        "categoria": "BEBIDAS"
+      },
+      {
+        "id": 4,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/bebidas-frutas.jpg",
+        "categoria": "BEBIDAS"
+      },
+      {
+        "id": 5,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/bebidas-naranja.jpg",
+        "categoria": "BEBIDAS"
+      },
+      {
+        "id": 6,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/bebidas-smoothes.jpg",
+        "categoria": "BEBIDAS"
+      },
+      { "id": 7,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/bebidas-vino.jpg",
+        "categoria": "BEBIDAS"
+      },
+      {
+        "id": 8,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-asado1.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 9,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-asado2.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 10,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-asado3.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 11,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-carne-menu.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 12,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-parrilla.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 13,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/carnetomh.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      },
+      {
+        "id": 14,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/dm-arroz-almejas.jpg",
+        "categoria": "APERITIVOS DEL MAR"
+      },
+      {
+        "id": 15,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/dm-calamares.jpg",
+        "categoria": "APERITIVOS DEL MAR"
+      },
+      {
+        "id": 16,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/dm-camarones.jpg",
+        "categoria": "APERITIVOS DEL MAR"
+      },
+      {
+        "id": 17,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/dm-ostiones.jpg",
+        "categoria": "APERITIVOS DEL MAR"
+      },
+      {
+        "id": 18,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/dm-pescado.jpg",
+        "categoria": "APERITIVOS DEL MAR"
+      },
+      {
+        "id": 19,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/dm-salmon.jpg",
+        "categoria": "APERITIVOS DEL MAR"
+      },
+      {
+        "id": 20,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-arroz.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 21,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-carnes-fria.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 22,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-sopa-apio.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 23,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-sopa-champiñones.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 24,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-sopa-tomate.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 25,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-carnes-frias-menu.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 26,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-variado.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 27,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/kids-frutas.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 28,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/kids-hotdogs.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 29,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/kids-macarrones.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 30,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/kids-pizza.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 31,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/kids-sandwich.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 32,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/kids-tender.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 33,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/p-horno.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 34,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pasta-albondigas.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 35,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pasta-almejas.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 36,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pasta-bologna.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 37,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pasta-con-camarones-menu.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 38,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pasta-con-vegetales-menu.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 39,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pasta-tocineta.jpg",
+        "categoria": "SELECCIÓN DE PASTAS"
+      },
+      {
+        "id": 40,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/e-sopa-menu.jpg",
+        "categoria": "SELECCIÓN DE ENTRADAS"
+      },
+      {
+        "id": 41,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/pizza-menu.jpg",
+        "categoria": "“kIDS” OPCIONES"
+      },
+      {
+        "id": 42,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-avellana.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 43,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-chocolate.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 44,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-mouse.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 45,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-naranja.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 46,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-pie-de-limon.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 47,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-rollo-de-fresa.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 48,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-tiramisu.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 49,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/postre-zarzamora.jpg",
+        "categoria": "POSTRES"
+      },
+      {
+        "id": 50,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-capresa.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 51,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-cesar.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 52,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-ensalada-menu.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 53,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-pollo.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 54,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-primavera.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 55,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-proschiuto.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 56,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/salad-tomate.jpg",
+        "categoria": "SELECCIÓN DE ENSALADAS"
+      },
+      {
+        "id": 57,
+        "nombre": "Lorem Ipsum",
+        "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+        "imagen": "img/c-carne2-menu.jpg",
+        "categoria": "SELECCIÓN DE CARNES"
+      }
+    ]
+  }

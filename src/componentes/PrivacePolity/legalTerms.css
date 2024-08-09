@@ -1,0 +1,19 @@
+.containerLegal{
+    padding: 5rem 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.private-polices{
+    width: 80%;
+}
+
+.private-polices p{
+  margin: 1rem 0;  
+}
+
+.private-polices h1, h2, h3, h4{
+    margin: 10px 0;
+}

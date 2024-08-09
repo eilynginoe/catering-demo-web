@@ -1,0 +1,73 @@
+.cabecera{
+    width: 100%;
+    background: linear-gradient(270deg, #48494A 0%, #030301 100%);
+    padding: 1em;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.logoContainer{
+    width: 20vw;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.imgLogo{
+    width: 80px;
+}
+
+.logoname{
+    color: white;
+    text-decoration: none;
+}
+
+.cabeceraButton {
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    display: none; /* Ocultar por defecto */
+  }
+  
+  .navegacionTabletyPc {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+  }
+ 
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 660px) {
+    .cabeceraButton {
+      display: block;
+
+    }
+  
+    .navegacionTabletyPc {
+      width: 100%;
+
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #333;
+      height: 0vh;
+      opacity: 0;
+      overflow: hidden;
+      transition: all .5s ease;
+    }
+  
+    .navegacionTabletyPc.isActive {
+      height: 35vh;
+      opacity: 1;
+    }
+  }

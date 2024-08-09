@@ -1,0 +1,140 @@
+.heroSection {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(270deg, #48494A 0%, #030301 100%);
+}
+
+.titleHeroSection {
+    font-family: "Dynalight", sans-serif;
+    font-weight: 300;
+    font-size: 3.5rem;
+}
+
+.textColumn {
+    /*flex: 1;*/
+    max-width: 40vw;
+    padding: 1rem;
+    color: white;
+    font-size: 18px;
+    line-height: 1.2;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageColumn {
+    flex: 1;
+    max-width: 80vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
+.imageColumn img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+.button {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    margin-top: 2rem;
+    background-color: #EA7341;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgb(241, 196, 81);
+    color: black;
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    .heroSection {
+        width: 100%;
+        flex-direction: column;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .imageColumn {
+        order: -1;
+        /* Display image column first on small screens */
+    }
+
+    .titleHeroSection {
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .textColumn {
+        max-width: 100%;
+    }
+
+    .button {
+        width: 55vw;
+        padding: 8px;
+
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px ) and (orientation: portrait){
+    .heroSection {
+        height: 40vh;
+    }
+
+    .titleHeroSection {
+        width: 50%;
+    }
+
+    .textColumn {
+        max-width: 50vw;
+    }
+
+    .button {
+        width: 35vw;
+        padding: 8px;
+
+    }
+}
+
+@media (max-width: 1023px) and (orientation: landscape) {
+    .heroSection {
+       min-height: 350px;
+       transform: translateY(-50px);
+
+    }
+
+    .titleHeroSection {
+        font-size: 1.5rem;
+    }
+
+    .textColumn {
+        max-width: 50vw;
+        font-size: 14px;
+    }
+
+    .button {
+        width: 45vw;
+        padding: 8px;
+
+    }
+}
+
