@@ -17,3 +17,19 @@
 .private-polices h1, h2, h3, h4{
     margin: 10px 0;
 }
+
+.private-polices strong {
+    color: #ff6347; /* Color destacado para el nombre de la empresa */
+}
+
+  /* Responsive styles */
+  @media (max-width: 600px) {
+
+    .containerLegal{
+        width: 100%;
+        padding: 2rem 0;
+
+    }
+   
+  
+  }

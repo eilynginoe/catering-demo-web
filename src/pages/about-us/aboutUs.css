@@ -30,3 +30,15 @@
     color: #ff6347; /* Color destacado para el nombre de la empresa */
   }
   
+  /* Responsive styles */
+@media (max-width: 600px) {
+
+  .sectionAbout{
+    padding: 8px;
+
+}
+  .about-us-container {
+    width: 90vw;
+  } 
+
+}
