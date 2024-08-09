@@ -57,3 +57,17 @@
     margin-left: 20px;
   }
   
+    /* Responsive styles */
+@media (max-width: 600px) {
+
+  .sectionContacto{
+    padding: 5px;
+}
+
+.contact-page-container {
+  max-width: 100%;
+  padding: 15px;
+
+}
+
+}
